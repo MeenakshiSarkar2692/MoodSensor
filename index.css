@@ -1,0 +1,88 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Center everything */
+  .app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  }
+  
+  /* Card (glassmorphism effect) */
+  .card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    color: white;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+  }
+  
+  /* Input box */
+  .input-box {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-box:focus {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Button */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Result */
+  .result {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffdf00;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+  }
+  
